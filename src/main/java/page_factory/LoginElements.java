@@ -1,5 +1,5 @@
 package page_factory;
-import object_repo.OR;
+import object_repo.LoginPageOR;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -14,13 +14,13 @@ public class LoginElements {
         PageFactory.initElements(driver , this);
 
     }
-     @FindBy (name = OR.email_address )
+     @FindBy (name = LoginPageOR.email_address )
     public  WebElement email_address ;
 
-    @FindBy (name = OR.password)
+    @FindBy (name = LoginPageOR.password)
     public WebElement password;
 
-    @FindBy (id = OR.Sign_in_button)
+    @FindBy (id = LoginPageOR.Sign_in_button)
     public  WebElement Sign_in_button;
 
 

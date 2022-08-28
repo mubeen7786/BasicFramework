@@ -7,7 +7,7 @@ public class BasePage {
     public WebDriver getDriver(){
         return DriverSetup.initDrier();
     }
-    public void loadpage(String base_url){
+    public void loadPage(String base_url){
          getDriver().get(base_url);
     }
 }

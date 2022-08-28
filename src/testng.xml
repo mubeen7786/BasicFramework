@@ -5,7 +5,7 @@
         <parameter name="emailid" value="tester456@gmail.com"/>
         <parameter name="password" value="test@123"/>
         <classes>
-            <class name="my_test.verifyUserLogin"/>
+            <class name="webTestCase.verifyUserLogin"/>
         </classes>
     </test> <!-- Test -->
 

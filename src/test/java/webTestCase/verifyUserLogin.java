@@ -1,17 +1,15 @@
-package my_test;
+package webTestCase;
 
-import Utils.DriverSetup;
 import Utils.utility;
 import base_test.BaseTest;
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
-import page_factory.LoginElements;
 import page_object.LoginPage;
 
 import java.io.IOException;
 
 public class verifyUserLogin extends BaseTest {
 
+    LoginPage loginPage=new LoginPage();
 
     @Test
     public void verifyUserLogin() throws IOException {
